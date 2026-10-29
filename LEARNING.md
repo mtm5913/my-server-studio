@@ -61,8 +61,8 @@ cases and preservation of nine existing containers. See [SPEC](SPEC.md),
 [latest verification](studio/evidence.json).
 AI browser check of 6 × 7 showed 42 in both outputs. Prepared fast checks passed
 (91 tests); two E2E tests were deselected because the laptop Docker daemon was
-unavailable. Full PR CI remains pending. AI supplied the routing explanation
+unavailable. [Full PR CI](https://github.com/mtm5913/my-server-studio/actions/runs/40956101078) passed, including the real-image E2E checks. AI supplied the routing explanation
 and initially misread the learner's wording about the successful rejection check;
 the learner clarified the intended meaning. No independent full request-path
 explanation was recorded.
-Next: commit the reviewed lesson record. Push/PR and full CI remain pending.
+GitHub completion: the reviewed record was published; [PR #2](https://github.com/mtm5913/my-server-studio/pull/2) merged into `main`, issue #1 closed, and [post-merge CI](https://github.com/mtm5913/my-server-studio/actions/runs/40957504942) passed all three jobs. Next: submit the repository for instructor review.

@@ -3,7 +3,7 @@
 ## STUDIO-001 · Launch a tested calculator on an existing server
 
 **Status:** New launch and runtime verification passed; learner observation, keep decision and summary review recorded. Full PR CI passed for the evidence commit.
-**Next step:** Confirm checks on the latest PR revision, then review for merge and issue closure.
+**Next step:** Submit this completed repository for instructor review.
 **Instructor implementation:** [issue #9](https://github.com/kaw393939/373_hosting/issues/9).
 Create your own issue from the [lesson template](.github/ISSUE_TEMPLATE/studio-calculator.md).
 
@@ -39,7 +39,7 @@ reviewed, selected evidence; never commit credentials or raw server output.
 | Preservation of unrelated services | Nine existing containers unchanged in identity, state and published ports during launch/verification; this is the selected scope only. |
 | Own prediction, check interpretation, browser observation and keep/revise reason | [LEARNING.md](LEARNING.md): initial guesses and AI routing explanation disclosed; check interpretation, 8 ÷ 2 observation and keep decision recorded. Independent full request-path explanation remains pending. |
 | Accuracy review before publishing learner excerpts | Learner reviewed, corrected wording, then approved the revised summary and authorized commit. |
-| Actual PR, latest CI, merge and issue closure | [PR #2](https://github.com/mtm5913/my-server-studio/pull/2), linked to issue #1. [CI run](https://github.com/mtm5913/my-server-studio/actions/runs/40956101078) passed all three jobs for `b083517`. Check any newer revision before merge. Merge and issue closure pending. |
+| Actual PR, latest CI, merge and issue closure | [PR #2](https://github.com/mtm5913/my-server-studio/pull/2), linked to issue #1. [CI run](https://github.com/mtm5913/my-server-studio/actions/runs/40956101078) passed all three jobs for `b083517`. [PR #2](https://github.com/mtm5913/my-server-studio/pull/2) merged into `main` at `e3af787`; issue #1 closed. [Post-merge CI](https://github.com/mtm5913/my-server-studio/actions/runs/40957504942) passed studio, validate and integration-contract. |
 
 Link the exported `studio/evidence.json`, actual CI and issue/PR when available.
 CI does not deploy this server. A fixture, green check, timestamp, closed issue
