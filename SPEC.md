@@ -2,8 +2,8 @@
 
 ## STUDIO-001 · Launch a tested calculator on an existing server
 
-**Status:** New launch and runtime verification passed; learner observation, keep decision and summary review recorded. Full CI pending.
-**Next step:** Commit the reviewed evidence; push/PR and full CI remain pending.
+**Status:** New launch and runtime verification passed; learner observation, keep decision and summary review recorded. Full PR CI passed for the evidence commit.
+**Next step:** Confirm checks on the latest PR revision, then review for merge and issue closure.
 **Instructor implementation:** [issue #9](https://github.com/kaw393939/373_hosting/issues/9).
 Create your own issue from the [lesson template](.github/ISSUE_TEMPLATE/studio-calculator.md).
 
@@ -34,12 +34,12 @@ reviewed, selected evidence; never commit credentials or raw server output.
 
 | Evidence | Actual result / link |
 |---|---|
-| Prepared Black/Pylint/pytest and real-image browser checks | Fast checks passed: 91 tests, 2 E2E deselected. Local Docker daemon unavailable; required full CI pending. Initial sandbox test bind failure resolved by rerunning with permission. |
+| Prepared Black/Pylint/pytest and real-image browser checks | Local fast checks passed: 91 tests, 2 E2E deselected because local Docker daemon was unavailable. [Full PR CI](https://github.com/mtm5913/my-server-studio/actions/runs/40956101078) passed for `b083517`: 91 non-E2E tests and 2 real-image Chromium E2E tests passed. Initial sandbox test bind failure resolved by rerunning with permission. |
 | Hosted image/commit, trusted HTTPS, valid and rejected API cases | Launch and verify passed; [latest sanitized evidence](studio/evidence.json). AI browser check: 6 × 7 showed 42 in browser and API, with Results match. |
 | Preservation of unrelated services | Nine existing containers unchanged in identity, state and published ports during launch/verification; this is the selected scope only. |
 | Own prediction, check interpretation, browser observation and keep/revise reason | [LEARNING.md](LEARNING.md): initial guesses and AI routing explanation disclosed; check interpretation, 8 ÷ 2 observation and keep decision recorded. Independent full request-path explanation remains pending. |
 | Accuracy review before publishing learner excerpts | Learner reviewed, corrected wording, then approved the revised summary and authorized commit. |
-| Actual PR, latest CI, merge and issue closure | Pending |
+| Actual PR, latest CI, merge and issue closure | [PR #2](https://github.com/mtm5913/my-server-studio/pull/2), linked to issue #1. [CI run](https://github.com/mtm5913/my-server-studio/actions/runs/40956101078) passed all three jobs for `b083517`. Check any newer revision before merge. Merge and issue closure pending. |
 
 Link the exported `studio/evidence.json`, actual CI and issue/PR when available.
 CI does not deploy this server. A fixture, green check, timestamp, closed issue
